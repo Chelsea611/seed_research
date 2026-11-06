@@ -1,0 +1,53 @@
+{
+  "version": "7.9.1",
+  "flags": {
+    "demo_only": true
+  },
+  "description": "仅用于标注导入、框显示和统计功能测试。矩形与类别为演示数据，未经专家确认，不用于模型训练或检测性能评价。",
+  "shapes": [
+    {
+      "label": "半饱满种子",
+      "points": [[480, 248], [1376, 1048]],
+      "group_id": null,
+      "description": "演示类别，不代表真实种子判定。",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "空瘪种子",
+      "points": [[1328, 0], [2272, 896]],
+      "group_id": null,
+      "description": "演示类别，不代表真实种子判定。",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "虫蛀种子",
+      "points": [[136, 896], [963, 1832]],
+      "group_id": null,
+      "description": "演示类别，不代表真实种子判定。",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "腐烂种子",
+      "points": [[928, 984], [1752, 1864]],
+      "group_id": null,
+      "description": "演示类别，不代表真实种子判定。",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "饱满种子",
+      "points": [[1728, 720], [2832, 1712]],
+      "group_id": null,
+      "description": "演示类别，不代表真实种子判定。",
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "../label_images/2022550132.png",
+  "imageData": null,
+  "imageHeight": 2048,
+  "imageWidth": 3072
+}
